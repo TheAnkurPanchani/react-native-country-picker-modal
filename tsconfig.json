@@ -8,6 +8,7 @@
     "jsx": "react",
     "target": "es2019",
     "module": "es6",
+    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
     "experimentalDecorators": true,
@@ -27,13 +28,11 @@
     "resolveJsonModule": true,
     "noFallthroughCasesInSwitch": true,
     "strictPropertyInitialization": false,
-    "lib": ["dom", "esnext"]
-    // "typeRoots": [
-    //   "./node_modules/@types",
-    //   "./@types",
-    //   "./node_modules/react-native/types"
-    // ]
+    "lib": ["dom", "esnext"],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./@types",
+    ]
   },
-  // "exclude": ["node_modules"],
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "exclude": ["node_modules"]
 }
