@@ -1,5 +1,5 @@
 {
-  "include": ["src", "App.tsx", "./typings.d.ts"],
+  "include": ["src", "./typings.d.ts"],
   "compilerOptions": {
     "declaration": true,
     "outDir": "./lib",
@@ -29,10 +29,7 @@
     "noFallthroughCasesInSwitch": true,
     "strictPropertyInitialization": false,
     "lib": ["dom", "esnext"],
-    "typeRoots": [
-      "./node_modules/@types",
-      "./@types",
-    ]
+    "typeRoots": ["./node_modules/@types", "./@types"]
   },
   "exclude": ["node_modules"]
 }
